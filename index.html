@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#060910">
+  <meta name="description" content="CodeMind by Mohamad Taha — Python development, AI, computer vision, and software projects.">
+  <meta property="og:title" content="CodeMind | Build Beyond Limits">
+  <meta property="og:description" content="Explore programming projects, computer vision, and AI experiments by CodeMind.">
+  <meta property="og:type" content="website">
+  <title>CodeMind | Build Beyond Limits</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home" aria-label="CodeMind home">Code<span>Mind</span><b>.</b></a>
+
+    <nav aria-label="Main navigation">
+      <a href="#home" data-i18n="navHome">Home</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#learn" data-i18n="navLearn">Learning</a>
+      <a href="resume.html">Resume</a>
+    </nav>
+
+    <button id="languageButton" type="button" aria-label="Change language">فا فارسی</button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span data-i18n="status">INDEPENDENT DEVELOPER · CODEMIND</span>
+        </div>
+
+        <p class="eyebrow" data-i18n="heroEyebrow">IDEAS. CODE. INTELLIGENCE.</p>
+
+        <h1 data-i18n="heroTitle">
+          Building Ideas Into
+          <span>Intelligent Software.</span>
+        </h1>
+
+        <p class="hero-description" data-i18n="heroDescription">
+          I'm Mohamad Taha, creator of CodeMind. I build Python projects
+          and explore computer vision, AI, and practical software development.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects" data-i18n="heroProjects">
+            Explore Projects ↗
+          </a>
+          <a class="button button-secondary"
+             href="https://github.com/mohamadtaha-dev"
+             target="_blank" rel="noopener noreferrer"
+             data-i18n="heroGithub">
+            GitHub Profile ↗
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span><span class="meta-symbol">⌘</span> Python</span>
+          <span><span class="meta-symbol">◈</span> Computer Vision</span>
+          <span><span class="meta-symbol">✳</span> AI / ML</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="CodeMind code illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="core-glow"></div>
+
+        <div class="floating-label label-top">CODE<span>MIND</span></div>
+        <div class="floating-label label-bottom">BUILD · LEARN · CREATE</div>
+
+        <div class="terminal">
+          <div class="terminal-bar">
+            <div class="terminal-dots"><i></i><i></i><i></i></div>
+            <span>codemind.py</span>
+            <span class="terminal-lock">◆</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="line-number">01</span> <span class="syntax-purple">class</span> <span class="syntax-cyan">CodeMind</span>:</p>
+            <p><span class="line-number">02</span> &nbsp;&nbsp;<span class="syntax-purple">def</span> <span class="syntax-cyan">build</span>(self):</p>
+            <p><span class="line-number">03</span> &nbsp;&nbsp;&nbsp;&nbsp;ideas = <span class="syntax-green">"possibilities"</span></p>
+            <p><span class="line-number">04</span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="syntax-purple">return</span> <span class="syntax-green">"Ideas into code"</span></p>
+            <p class="terminal-cursor-line"><span class="line-number">05</span> <span class="cursor"></span></p>
+          </div>
+          <div class="terminal-footer">
+            <span><span class="status-dot"></span> <span data-i18n="terminalReady">READY TO BUILD</span></span>
+            <span>PYTHON 3</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech-strip" aria-label="Technologies">
+      <span data-i18n="techIntro">EXPLORING TECHNOLOGY THROUGH PROJECTS</span>
+      <div class="tech-list">
+        <span>PYTHON</span>
+        <span>OPENCV</span>
+        <span>NUMPY</span>
+        <span>SQLITE</span>
+        <span>HTML / CSS / JS</span>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="about">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="aboutEyebrow">THE MIND BEHIND THE CODE</p>
+        <h2 data-i18n="aboutTitle">Learn by <span>Building.</span></h2>
+        <p data-i18n="aboutDescription">
+          CodeMind is my personal brand for building software, experimenting
+          with new ideas, and sharing the journey of learning technology.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-number">01 / PY</span>
+          <div class="skill-icon">⌘</div>
+          <h3 data-i18n="skillPython">Python Development</h3>
+          <p data-i18n="skillPythonDesc">Applications, automation tools, desktop software, and Telegram bots.</p>
+          <div class="skill-tags"><span>Python</span><span>SQLite</span><span>Tkinter</span></div>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">02 / CV</span>
+          <div class="skill-icon">◈</div>
+          <h3 data-i18n="skillVision">Computer Vision</h3>
+          <p data-i18n="skillVisionDesc">Exploring image processing, face detection, and real-time vision systems.</p>
+          <div class="skill-tags"><span>OpenCV</span><span>NumPy</span><span>YuNet</span></div>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">03 / AI</span>
+          <div class="skill-icon">✳</div>
+          <h3 data-i18n="skillAI">AI & Machine Learning</h3>
+          <p data-i18n="skillAIDesc">Learning intelligent systems, data science, and machine learning fundamentals.</p>
+          <div class="skill-tags"><span>AI / ML</span><span>Data Science</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section projects-section section-wrap" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="projectsEyebrow">SELECTED WORK / 2026</p>
+        <h2 data-i18n="projectsTitle">Projects in <span>Progress.</span></h2>
+        <p data-i18n="projectsDescription">
+          A collection of experiments and applications developed under the CodeMind brand.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-card-top"><span class="project-icon">◈</span><span class="project-index">PROJECT_01</span></div>
+          <h3>VisionGuard</h3>
+          <p data-i18n="visionGuardDesc">A computer vision security system featuring camera monitoring, face detection, and event logging.</p>
+          <div class="project-tags"><span>Python</span><span>OpenCV</span><span>YuNet</span></div>
+          <a href="https://github.com/mohamadtaha-dev/visionguard-security-system" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="viewGithub">Explore on GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top"><span class="project-icon">▧</span><span class="project-index">PROJECT_02</span></div>
+          <h3>CodeMind Vision Studio</h3>
+          <p data-i18n="studioDesc">A desktop image-editing project combining a modern interface with image-processing tools.</p>
+          <div class="project-tags"><span>Python</span><span>OpenCV</span><span>GUI</span></div>
+          <a href="https://github.com/mohamadtaha-dev/codemind-vision-studio" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="viewGithub">Explore on GitHub ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top"><span class="project-icon">⌗</span><span class="project-index">PROJECT_03</span></div>
+          <h3>Baijin</h3>
+          <p data-i18n="baijinDesc">A Persian word-game Telegram bot concept with progression and player-focused features.</p>
+          <div class="project-tags"><span>Python</span><span>Telegram Bot</span><span>SQLite</span></div>
+          <a href="https://github.com/mohamadtaha-dev/baijin-telegram-bot" target="_blank" rel="noopener noreferrer" class="project-link" data-i18n="viewGithub">Explore on GitHub ↗</a>
+        </article>
+      </div>
+
+      <div class="projects-cta">
+        <p data-i18n="moreProjects">Want to explore more experiments and code?</p>
+        <a class="button button-secondary" href="https://github.com/mohamadtaha-dev" target="_blank" rel="noopener noreferrer" data-i18n="allGithub">View All Repositories ↗</a>
+      </div>
+    </section>
+
+    <section class="learning-section section-wrap" id="learn">
+      <div class="learning-glow"></div>
+      <p class="eyebrow" data-i18n="learnEyebrow">THE CODEMIND LEARNING LAB</p>
+      <h2 data-i18n="learnTitle">Understand it. <span>Build it.</span></h2>
+      <p data-i18n="learnDescription">
+        Practical programming tutorials and lessons from real projects are on the roadmap.
+      </p>
+      <div class="learning-topics">
+        <span>01 — Python</span>
+        <span>02 — Computer Vision</span>
+        <span>03 — AI / ML</span>
+      </div>
+      <a class="button button-primary" href="https://github.com/mohamadtaha-dev" target="_blank" rel="noopener noreferrer" data-i18n="learnButton">Follow the Journey ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a class="logo" href="#home">Code<span>Mind</span><b>.</b></a>
+    <p>© <span id="year"></span> CodeMind · <span data-i18n="footerText">Built by Mohamad Taha</span></p>
+    <a href="https://github.com/mohamadtaha-dev" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+  </footer>
+</body>
+</html>
